@@ -1,0 +1,226 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    
+    
+ 
+  
+    
+}
+
+.page1{
+   
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: cursive;
+   
+}
+.page1 .text{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+
+}
+.page1 .text span{
+    background: #fffb24;
+}
+
+
+.page1 .image img{
+ 
+   
+   
+    width: 50vw;
+
+    
+
+}
+
+.page1 .image .nav{
+    height: 3vh;
+    width: 10px;
+    color: #000;
+}
+.page2{
+    display: flex;
+    width: 100vw;
+   flex-wrap: wrap;
+}
+.box{
+    
+    width: 100vw;
+   
+    display: flex;
+}
+.page2 .box h1{
+    margin-left: 30vw;
+    font-family: cursive;
+    font-size: 10vw;
+    
+    align-items: center;
+    justify-content: center;
+
+   
+    text-shadow: #fffb24;
+  
+}
+.page3{
+    display: flex;
+
+   flex-wrap: wrap;
+    width: 100vw;
+    font-family: cursive;
+   
+}
+.page3 .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    width: 100vw;
+  
+  
+    
+}
+.page3 .box h1{
+    display: flex;
+    font-size: 10vw;
+    
+   
+   
+}
+.page3 .text2 h1{
+ text-shadow: 2px 2px 3px rgb(255, 230, 0);   
+}
+.page3 .text1 h1{
+    text-shadow: 2px 2px 3px rgb(255, 230, 0);   
+   }
+   .page3 .text3 h1{
+    text-shadow: 2px 2px 3px rgb(255, 230, 0);   
+   }
+   .page3 .text4 h1{
+    text-shadow: 2px 2px 3px rgb(255, 230, 0);   
+   }
+.nav img{
+    width: 20vw;
+    filter: brightness(1.5);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 99vw;
+}
+.nav ul{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 8vw;
+    list-style: none;
+}
+
+.nav h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.page3 {
+   
+    justify-content: space-around;
+}
+.page2 h2{
+    
+    font-size: 2vw;
+    font-family: cursive;
+    color: #fffb24;
+    background-color: black;
+   
+}
+.page2 p{
+  font-size: 3vw;
+  font-family: cursive;
+}
+.page4{
+   
+    width: 100vw;
+}
+.nav ul a{
+    color: #000;
+    font-family: cursive;
+    text-decoration: none;
+    font-size: 3vw;
+   
+}
+ button {
+    margin-left: 40vw;
+    justify-content: center;
+  
+  
+    color: white;
+   background-color: black;
+   border-radius: 20px;
+   
+}
+button a{
+    
+    
+    
+ 
+    text-decoration: none;
+  
+    font-size: larger;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+   
+}
+.page3 a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 18px;
+}
+button:hover{
+    box-shadow: 2px 5px 6px 3px rgb(234, 255, 0);
+}
+
+.page4 .box h1{
+    margin-left: 25vw;
+    font-size: 10vw;
+    font-family: cursive;
+
+
+}
+.nav label{
+    display: none;
+}
+
+#check:checked~.nav ul{
+    display: block;
+}
+
+
+
+    
+
+    
+
+.page4 form input{
+    margin: 1vw;
+    font-size: 3vw;
+    font-family: cursive;
+    border-radius: 50px;
+    
+
+    
+}
+.page4 .box{
+    display: flex;
+}
+
